@@ -1,0 +1,39 @@
+andrewrothstein.ca_certs
+=========
+![Build Status](https://github.com/andrewrothstein/ansible-ca_certs/actions/workflows/build.yml/badge.svg)
+
+Installs the operating system default trusted CA certificates.
+
+Requirements
+------------
+
+See [meta/main.yml](meta/main.yml)
+
+Role Variables
+--------------
+
+See [defaults/main.yml](defaults/main.yml)
+
+Dependencies
+------------
+
+See [meta/main.yml](meta/main.yml)
+
+Example Playbook
+----------------
+
+```yml
+- hosts: servers
+  roles:
+    - andrewrothstein.ca_certs
+```
+
+License
+-------
+
+MIT
+
+Author Information
+------------------
+
+Andrew Rothstein <andrew.rothstein@gmail.com>
